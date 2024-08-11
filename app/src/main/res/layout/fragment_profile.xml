@@ -49,11 +49,44 @@
             android:layout_marginTop="10dp"
             android:background="@drawable/form"
             android:hint="Email"
-            android:inputType="text"
+            android:inputType="textEmailAddress"
             android:paddingHorizontal="10dp"
             android:paddingVertical="10dp"
             android:textSize="15sp" />
 
+        <EditText
+            android:id="@+id/etCourse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/form"
+            android:hint="Course"
+            android:inputType="text"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="10dp"
+            android:textSize="15sp" />
+        <EditText
+            android:id="@+id/etMobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/form"
+            android:hint="Contact Number"
+            android:inputType="phone"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="10dp"
+            android:textSize="15sp" />
+        <EditText
+            android:id="@+id/etAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/form"
+            android:hint="Complete Address"
+            android:inputType="text"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="10dp"
+            android:textSize="15sp" />
         <Spinner
             android:id="@+id/spinnerSchool"
             android:layout_width="match_parent"
@@ -63,14 +96,32 @@
             android:paddingHorizontal="10dp"
             android:paddingVertical="10dp" />
 
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp">
+
+            <CheckBox
+                android:id="@+id/termsCheckBox"
+                android:layout_width="25dp"
+                android:layout_height="25dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+
+                android:text="All of the details above are relevant"/>
+
+        </LinearLayout>
         <Button
             android:id="@+id/btnSave"
             android:layout_width="wrap_content"
             android:layout_height="45dp"
-            android:layout_marginTop="80dp"
+
             android:background="@drawable/savebutton"
             android:gravity="center"
-            android:paddingHorizontal="50dp"
+            android:paddingHorizontal="130dp"
             android:text="Save"
             android:textAllCaps="false"
             android:textColor="#FFFFFF"

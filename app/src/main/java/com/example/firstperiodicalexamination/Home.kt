@@ -5,6 +5,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import androidx.navigation.fragment.findNavController
 import com.example.firstperiodicalexamination.databinding.FragmentHomeBinding
 
 class Home : Fragment() {
@@ -18,8 +19,8 @@ class Home : Fragment() {
     ): View? {
         binding = FragmentHomeBinding.inflate(inflater, container, false)
 
-
-
+        binding.edituserButton.setOnClickListener { findNavController().navigate(R.id.profile) }
+        binding.seeMapsButton.setOnClickListener { findNavController().navigate(R.id.map) }
 
         return binding.root
     }

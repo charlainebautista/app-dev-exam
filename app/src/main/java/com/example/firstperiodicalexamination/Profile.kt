@@ -14,7 +14,7 @@ class Profile : Fragment() {
 
     private lateinit var binding: FragmentProfileBinding
 
-    private val schools = listOf("Select a School", "School A", "School B", "School C") // Example list of schools
+    private val schools = listOf("Select a School", "Urdaneta Campus", "Dagupan Campus")
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -27,6 +27,7 @@ class Profile : Fragment() {
         binding.spinnerSchool.adapter = schoolsAdapter
 
         binding.btnSave.setOnClickListener {
+
             val school = binding.spinnerSchool.selectedItem.toString()
 
             if (school == "Select a School") {
@@ -34,6 +35,42 @@ class Profile : Fragment() {
             } else {
                 // Handle the save action
                 Toast.makeText(requireContext(), "School selected: $school", Toast.LENGTH_LONG).show()
+            }
+
+            val name = binding.etName
+            val email = binding.etEmail
+            val course = binding.etCourse
+            val mobile = binding.etMobile
+            val address = binding.etAddress
+            val agree = binding.termsCheckBox
+
+            if (!agree.isChecked) {
+                Toast.makeText(requireContext(), "Please click the checkbox", Toast.LENGTH_LONG).show()
+                return@setOnClickListener
+            }
+
+            if (name.text.toString().isEmpty()) {
+                name.error = "Name section is Empty"
+            } else if (email.text.toString().isEmpty()) {
+                email.error = "Email section is Empty"
+            } else if (course.text.toString().isEmpty()) {
+                course.error = "Course section is Empty"
+            } else if (mobile.text.toString().isEmpty()) {
+                mobile.error = "Mobile section is Empty"
+            } else if (address.text.toString().isEmpty()) {
+                address.error = "Address section is Empty"
+            } else {
+                name.text.clear()
+                email.text.clear()
+                course.text.clear()
+                mobile.text.clear()
+                address.text.clear()
+
+                binding.spinnerSchool.setSelection(0)
+
+                agree.isChecked = false
+
+                Toast.makeText(requireContext(), "Your profile was already saved", Toast.LENGTH_LONG).show()
             }
         }
 

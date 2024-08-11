@@ -12,10 +12,35 @@
         <action
             android:id="@+id/action_home2_to_profile"
             app:destination="@id/profile" />
+        <action
+            android:id="@+id/action_home2_to_map"
+            app:destination="@id/map" />
+        <action
+            android:id="@+id/action_home2_to_modalityHelp"
+            app:destination="@id/modalityHelp" />
     </fragment>
     <fragment
         android:id="@+id/profile"
         android:name="com.example.firstperiodicalexamination.Profile"
         android:label="fragment_profile"
         tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/map"
+        android:name="com.example.firstperiodicalexamination.Map"
+        android:label="fragment_map"
+        tools:layout="@layout/fragment_map" >
+        <action
+            android:id="@+id/action_map_to_urdanetaMap"
+            app:destination="@id/urdanetaMap" />
+    </fragment>
+    <fragment
+        android:id="@+id/modalityHelp"
+        android:name="com.example.firstperiodicalexamination.ModalityHelp"
+        android:label="fragment_modality_help"
+        tools:layout="@layout/fragment_modality_help" />
+    <fragment
+        android:id="@+id/urdanetaMap"
+        android:name="com.example.firstperiodicalexamination.UrdanetaMap"
+        android:label="fragment_urdaneta_map"
+        tools:layout="@layout/fragment_urdaneta_map" />
 </navigation>

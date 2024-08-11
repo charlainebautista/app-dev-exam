@@ -18,7 +18,6 @@ class ModalityHelp : Fragment() {
 
 
 
-
         return binding.root
     }
 
