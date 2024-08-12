@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Education">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingRight="40dp"
+            android:paddingHorizontal="40dp"
+            android:paddingVertical="30dp"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#99BC85"
+                app:cardCornerRadius="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bachelor of Arts in Communication"
+                    android:textSize="16sp"
+                    android:padding="10dp"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="The Bachelor of Arts in Communication (AB Communication) is a comprehensive degree program designed to prepare students for dynamic roles in the field of communication. Through a blend of theoretical foundations and hands-on practical experience, this program equips students with the essential knowledge and skills required for effective communication across various mediums. From journalism and public relations to digital media and interpersonal communication, our curriculum covers a wide spectrum, empowering graduates to navigate and excel in the diverse and ever-evolving communication landscape. Upon completion, our students are poised to contribute meaningfully to the field, whether in media, corporate communication, or other communication-related professions." />
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#99BC85"
+                app:cardCornerRadius="5dp"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bachelor of Education"
+                    android:textSize="16sp"
+                    android:padding="10dp"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="15sp"
+                android:text="Bachelor of Science in Elementary Education"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="The Bachelor of Science in Accounting Technology program focuses on cultivating the technical expertise, skills, and values essential for a thriving career in accounting management. Our curriculum is meticulously crafted to furnish students with a robust grounding in accounting principles, financial analysis, cost management, and strategic decision-making. Upon completion, our graduates are adeptly equipped to pursue professional certifications in accounting management, showcasing their proficiency and elevating their career opportunities."
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="15sp"
+                android:text="Bachelor of Secondary Education"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Bachelor of Secondary Education (BSED) is a four year degree program designed to prepare students for becoming high school teachers. The program combines both theory and practice in order to teach students the necessary knowledge and skills a high school teacher needs. The program aims to produce competent teachers who provide a conducive learning experience to their students."/>
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

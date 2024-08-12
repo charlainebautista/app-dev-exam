@@ -32,15 +32,60 @@
         <action
             android:id="@+id/action_map_to_urdanetaMap"
             app:destination="@id/urdanetaMap" />
+        <action
+            android:id="@+id/action_map_to_dagupanMap"
+            app:destination="@id/dagupanMap" />
     </fragment>
     <fragment
         android:id="@+id/modalityHelp"
         android:name="com.example.firstperiodicalexamination.ModalityHelp"
         android:label="fragment_modality_help"
-        tools:layout="@layout/fragment_modality_help" />
+        tools:layout="@layout/fragment_modality_help" >
+        <action
+            android:id="@+id/action_modalityHelp_to_accountancy"
+            app:destination="@id/accountancy" />
+        <action
+            android:id="@+id/action_modalityHelp_to_education2"
+            app:destination="@id/education2" />
+        <action
+            android:id="@+id/action_modalityHelp_to_criminology"
+            app:destination="@id/criminology" />
+    </fragment>
     <fragment
         android:id="@+id/urdanetaMap"
         android:name="com.example.firstperiodicalexamination.UrdanetaMap"
         android:label="fragment_urdaneta_map"
         tools:layout="@layout/fragment_urdaneta_map" />
+    <fragment
+        android:id="@+id/dagupanMap"
+        android:name="com.example.firstperiodicalexamination.DagupanMap"
+        android:label="fragment_dagupan_map"
+        tools:layout="@layout/fragment_dagupan_map" />
+    <fragment
+        android:id="@+id/accountancy"
+        android:name="com.example.firstperiodicalexamination.Accountancy"
+        android:label="fragment_accountancy"
+        tools:layout="@layout/fragment_accountancy" >
+        <action
+            android:id="@+id/action_accountancy_to_modalityHelp"
+            app:destination="@id/modalityHelp" />
+    </fragment>
+    <fragment
+        android:id="@+id/criminology"
+        android:name="com.example.firstperiodicalexamination.Criminology"
+        android:label="fragment_criminology"
+        tools:layout="@layout/fragment_criminology" >
+        <action
+            android:id="@+id/action_criminology_to_modalityHelp"
+            app:destination="@id/modalityHelp" />
+    </fragment>
+    <fragment
+        android:id="@+id/education2"
+        android:name="com.example.firstperiodicalexamination.Education"
+        android:label="fragment_education"
+        tools:layout="@layout/fragment_education" >
+        <action
+            android:id="@+id/action_education2_to_modalityHelp"
+            app:destination="@id/modalityHelp" />
+    </fragment>
 </navigation>
