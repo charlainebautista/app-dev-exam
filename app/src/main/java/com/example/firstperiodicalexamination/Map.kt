@@ -18,7 +18,7 @@ class Map : Fragment() {
     ): View? {
         binding = FragmentMapBinding.inflate(inflater, container, false)
         binding.urdamapButton.setOnClickListener { findNavController().navigate(R.id.urdanetaMap) }
-
+        binding.dagupanmapButton.setOnClickListener { findNavController().navigate(R.id.dagupanMap) }
 
 
         return binding.root

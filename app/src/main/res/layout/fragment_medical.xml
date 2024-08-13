@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Medical">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingHorizontal="40dp"
+            android:paddingVertical="30dp"
+            android:paddingRight="40dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#99BC85"
+                app:cardCornerRadius="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="Bachelor of Science in Nursing"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="The Bachelor of Science Nursing program is a four-year course where we teach students nursing concepts alongside Related Learning Experiences (RLE). Through our outcome-based curriculum, we train students to become competent through simulated clinical and active learning activities. Our program also provides an intensive nursing practicum that will make our students skilled, refined, and worthy of entering the nursing profession."/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="#99BC85"
+                app:cardCornerRadius="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="Bachelor of Science in Pharmacy"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="The Bachelor of Science in Pharmacy program is a four-year course which focuses on teaching necessary foundational knowledge for pharmaceutical product development. Through our program, we teach students on the essentials of pharmaceutical chemistry, pharmaceutics, and the life sciences. During their fourth year, we will assign students to intern in various CHED-accredited affiliated establishments to learn about the rigors of pharmacy practice. Their internship will expose them to various practice areas and prepare them for the roles they may take on after graduation. Graduates of the BS Pharmacy program must take the board exams conducted by the Professional Regulation Commission to qualify as registered pharmacists."/>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="#99BC85"
+                app:cardCornerRadius="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="BBachelor in Medical Laboratory Science"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="The Bachelor of Science in Medical Laboratory Science is a four-year program that provides knowledge in the fields of Clinical Chemistry, Hematology, Microbiology, Immunohematology, Immunology and Serology, Urinalysis, Clinical Microscopy, Parasitology, Cytology, and Histopathology. During their fourth year, students undergo an internship program in a CHED-accredited training laboratory where they rotate between sections. Graduates of the program must take the board exams conducted by the Professional Regulation Commission to qualify as registered medical technologists."/>
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

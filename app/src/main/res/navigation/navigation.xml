@@ -18,6 +18,9 @@
         <action
             android:id="@+id/action_home2_to_modalityHelp"
             app:destination="@id/modalityHelp" />
+        <action
+            android:id="@+id/action_home2_to_scholarship2"
+            app:destination="@id/scholarship2" />
     </fragment>
     <fragment
         android:id="@+id/profile"
@@ -50,6 +53,24 @@
         <action
             android:id="@+id/action_modalityHelp_to_criminology"
             app:destination="@id/criminology" />
+        <action
+            android:id="@+id/action_modalityHelp_to_medical"
+            app:destination="@id/medical" />
+        <action
+            android:id="@+id/action_modalityHelp_to_criminology2"
+            app:destination="@id/criminology" />
+        <action
+            android:id="@+id/action_modalityHelp_to_computer"
+            app:destination="@id/computer" />
+        <action
+            android:id="@+id/action_modalityHelp_to_architecture"
+            app:destination="@id/architecture" />
+        <action
+            android:id="@+id/action_modalityHelp_to_flex"
+            app:destination="@id/flex" />
+        <action
+            android:id="@+id/action_modalityHelp_to_rad"
+            app:destination="@id/rad" />
     </fragment>
     <fragment
         android:id="@+id/urdanetaMap"
@@ -78,6 +99,9 @@
         <action
             android:id="@+id/action_criminology_to_modalityHelp"
             app:destination="@id/modalityHelp" />
+        <action
+            android:id="@+id/action_criminology_to_modalityHelp2"
+            app:destination="@id/modalityHelp" />
     </fragment>
     <fragment
         android:id="@+id/education2"
@@ -87,5 +111,51 @@
         <action
             android:id="@+id/action_education2_to_modalityHelp"
             app:destination="@id/modalityHelp" />
+    </fragment>
+    <fragment
+        android:id="@+id/architecture"
+        android:name="com.example.firstperiodicalexamination.Architecture"
+        android:label="fragment_architecture"
+        tools:layout="@layout/fragment_architecture" >
+        <action
+            android:id="@+id/action_architecture_to_modalityHelp"
+            app:destination="@id/modalityHelp" />
+    </fragment>
+    <fragment
+        android:id="@+id/computer"
+        android:name="com.example.firstperiodicalexamination.Computer"
+        android:label="fragment_computer"
+        tools:layout="@layout/fragment_computer" >
+        <action
+            android:id="@+id/action_computer_to_modalityHelp"
+            app:destination="@id/modalityHelp" />
+    </fragment>
+    <fragment
+        android:id="@+id/medical"
+        android:name="com.example.firstperiodicalexamination.Medical"
+        android:label="fragment_medical"
+        tools:layout="@layout/fragment_medical" />
+    <fragment
+        android:id="@+id/flex"
+        android:name="com.example.firstperiodicalexamination.Flex"
+        android:label="fragment_flex"
+        tools:layout="@layout/fragment_flex" >
+        <action
+            android:id="@+id/action_flex_to_modalityHelp"
+            app:destination="@id/modalityHelp" />
+    </fragment>
+    <fragment
+        android:id="@+id/rad"
+        android:name="com.example.firstperiodicalexamination.Rad"
+        android:label="fragment_rad"
+        tools:layout="@layout/fragment_rad" />
+    <fragment
+        android:id="@+id/scholarship2"
+        android:name="com.example.firstperiodicalexamination.Scholarship"
+        android:label="fragment_scholarship"
+        tools:layout="@layout/fragment_scholarship" >
+        <action
+            android:id="@+id/action_scholarship2_to_home2"
+            app:destination="@id/home2" />
     </fragment>
 </navigation>

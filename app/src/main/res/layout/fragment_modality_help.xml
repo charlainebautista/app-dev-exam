@@ -8,133 +8,168 @@
 
     <!-- TODO: Update blank fragment layout -->
 
-    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:padding="16dp">
+        android:layout_height="0dp"
+        android:padding="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
             android:orientation="vertical"
             android:paddingLeft="20dp"
             android:paddingRight="20dp"
-            android:paddingBottom="10dp"
-            android:layout_marginTop="20dp">
+            android:paddingBottom="100dp">
 
             <TextView
                 android:id="@+id/tvHelpTitle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
                 android:text="Modality Help"
+                android:layout_marginTop="20dp"
+                android:textColor="#597445"
                 android:textSize="24sp"
-                android:textStyle="bold"
-                android:layout_gravity="center_horizontal" />
+                android:textStyle="bold" />
 
             <!-- Programs Section -->
             <TextView
                 android:id="@+id/tvProgramsHeader"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="20dp"
                 android:text="Programs"
+                android:textColor="#597445"
                 android:textSize="20sp"
-                android:textStyle="bold"
-                android:layout_marginTop="30dp"/>
+                android:textStyle="bold" />
 
             <Button
                 android:id="@+id/btnFLEXProgram"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_margin="10dp"
                 android:layout_marginTop="15dp"
-                android:text="FLEX Program"
-                android:textSize="16sp"
+                android:background="@drawable/modalityhelpbtn"
                 android:padding="10dp"
+                android:text="FLEX Program"
                 android:textAllCaps="false"
                 android:textColor="#0E7D44"
-                android:background="@drawable/modalityhelpbtn"/>
+                android:textSize="14sp" />
 
             <Button
                 android:id="@+id/btnRADProgram"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="RAD Program"
+                android:layout_margin="10dp"
                 android:background="@drawable/modalityhelpbtn"
+                android:padding="10dp"
+                android:text="RAD Program"
                 android:textAllCaps="false"
                 android:textColor="#0E7D44"
-                android:textSize="16sp"
-                android:padding="10dp"
-                android:layout_marginTop="15dp"/>
+                android:textSize="14sp" />
 
             <!-- Colleges and Departments Section -->
             <TextView
                 android:id="@+id/tvCollegesHeader"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="20dp"
                 android:text="Colleges and Departments"
+                android:textColor="#597445"
                 android:textSize="20sp"
-                android:textStyle="bold"
-                android:layout_marginTop="30dp" />
+                android:textStyle="bold" />
 
             <Button
                 android:id="@+id/btnCMA"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="College of Management and Accountancy"
-                android:background="@drawable/modalityhelpbtn"
-                android:textColor="#0E7D44"
-                android:textAllCaps="false"
+                android:layout_marginLeft="10dp"
                 android:layout_marginTop="15dp"
-                android:textSize="16sp"
-                android:padding="10dp"/>
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/modalityhelpbtn"
+                android:padding="10dp"
+                android:text="College of Management and Accountancy"
+                android:textAllCaps="false"
+                android:textColor="#0E7D44"
+                android:textSize="14sp" />
 
             <Button
                 android:id="@+id/btnCELA"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="College of Education and Liberal Arts"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
                 android:background="@drawable/modalityhelpbtn"
+                android:padding="10dp"
+                android:text="College of Education and Liberal Arts"
                 android:textAllCaps="false"
                 android:textColor="#0E7D44"
-                android:textSize="16sp"
-                android:padding="10dp"
-                android:layout_marginTop="15dp"/>
+                android:textSize="14sp" />
 
             <Button
                 android:id="@+id/btnCCJE"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="College of Criminal Justice Education"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
                 android:background="@drawable/modalityhelpbtn"
+                android:padding="10dp"
+                android:text="College of Criminal Justice Education"
                 android:textAllCaps="false"
                 android:textColor="#0E7D44"
-                android:textSize="16sp"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/btnCEA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/modalityhelpbtn"
                 android:padding="10dp"
-                android:layout_marginTop="15dp"/>
+                android:text="College of Engineering and Architechture"
+                android:textAllCaps="false"
+                android:textColor="#0E7D44"
+                android:textSize="14sp" />
 
             <Button
                 android:id="@+id/btnCAHS"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="College of Allied Health Sciences"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
                 android:background="@drawable/modalityhelpbtn"
+                android:padding="10dp"
+                android:text="College of Allied Health Sciences"
                 android:textAllCaps="false"
                 android:textColor="#0E7D44"
-                android:textSize="16sp"
-                android:padding="10dp"
-                android:layout_marginTop="15dp"/>
+                android:textSize="14sp" />
 
             <Button
                 android:id="@+id/btnCITE"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="College of Information Technology"
+                android:layout_margin="10dp"
                 android:background="@drawable/modalityhelpbtn"
+                android:padding="10dp"
+                android:text="College of Information Technology"
                 android:textAllCaps="false"
                 android:textColor="#0E7D44"
-                android:textSize="16sp"
-                android:padding="10dp"
-                android:layout_marginTop="15dp"/>
-            <!-- Add more buttons for other colleges and departments as needed -->
+                android:textSize="14sp" />
 
         </LinearLayout>
     </ScrollView>

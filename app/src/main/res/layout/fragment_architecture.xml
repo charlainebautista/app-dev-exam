@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Architecture">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingHorizontal="40dp"
+            android:paddingVertical="30dp"
+            android:paddingRight="40dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#99BC85"
+                app:cardCornerRadius="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="Bachelor of Science in Architecture"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="The Bachelor of Architecture program is a comprehensive and innovative course designed to cultivate the skills, knowledge, and creative vision necessary for a successful career in architecture. Our curriculum seamlessly integrates theoretical principles with hands-on design projects, providing students with a solid foundation in architectural theory, history, and technical expertise. Through studio-based learning and real-world applications, students develop the ability to conceptualize and bring to life architectural designs that are both aesthetically compelling and functionally sound. Graduates of our program are well-prepared to embark on diverse career paths in architecture, urban planning, sustainable design, and other related fields, contributing to the built environment with ingenuity and expertise.
+"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="#99BC85"
+                app:cardCornerRadius="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="Bachelor of Science in Computer Engineering"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="The Bachelor of Science in Computer Engineering (BS Computer Engineering) program is a dynamic and rigorous course designed to prepare students for the ever-evolving field of computer engineering. Our curriculum combines theoretical foundations with hands-on practical experience, ensuring students acquire a strong understanding of both hardware and software aspects of computing systems. Through courses in digital systems, computer architecture, programming, and electronics, students develop the skills necessary for designing and implementing innovative solutions. The program emphasizes problem-solving, critical thinking, and teamwork, essential for addressing the challenges of the digital age. Graduates are well-equipped for careers in areas such as embedded systems, networking, software development, and hardware design, contributing to advancements in technology and computing.
+"/>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="#99BC85"
+                app:cardCornerRadius="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="Bachelor of Science in Civil Engineering"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="The Bachelor of Science in Civil Engineering program is a four-year course that teaches students the knowledge, skills, and training necessary for designing, constructing and maintaining buildings, and public infrastructure and facilities. We also develop their zest for excellence and lifelong training necessary for adapting to civil engineering trends. Graduates of the BS Civil Engineering program must take the board exams conducted by the Professional Regulation Commission to become professionals.
+"/>
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

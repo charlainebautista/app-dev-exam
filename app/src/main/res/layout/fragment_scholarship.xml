@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Scholarship">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:paddingBottom="100dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Scholarships"
+                android:textColor="#597445"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/scholarship" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Most importantly, our education is affordable. We do not charge any hidden or unnecessary fees."
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:text="We support deserving students throughout their tertiary learning years by offering scholarship programs. Our Hawak Kamay Scholarship Program provides 50% to 75% discount on tuition and miscellaneous fees for our more financially-challenged students."
+                android:textAlignment="center" />
+
+            <LinearLayout
+                android:layout_width="310dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/hkAHeader"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@drawable/hka"
+                    android:padding="16dp"
+                    android:layout_marginTop="30dp">
+
+                    <TextView
+                        android:id="@+id/hkATitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1. PHINMA Scholarship"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/hkAContent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="gone"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:id="@+id/hkADescription"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="The scholarship offers exceptional financial support by covering 100% of tuition and miscellaneous fees for up to 5 years. Recipients also receive a monthly allowance of 4,000 PHP, provided they are Honors or Top 10 Grade 12 students who successfully pass the qualifying exam. To maintain the scholarship, students must fulfill a 2-hour daily service requirement in an assigned department, ensure no grades fall below 2.0, and maintain a minimum average of 1.75. This commitment extends to summer sessions if the curriculum necessitates it. To apply, students must submit a Scholarship Acceptance Letter from the Office of the President and complete their Enrollment Registration."/>
+                </LinearLayout>
+
+                <!-- Repeat for hkB and hkC -->
+                <LinearLayout
+                    android:id="@+id/hkBHeader"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:orientation="vertical"
+                    android:background="@drawable/hka"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:id="@+id/hkBTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2. Student Assistance Scholarship"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/hkBContent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="gone"
+                    android:padding="16dp"
+                    android:layout_marginTop="10dp">
+
+                    <TextView
+                        android:id="@+id/hkBDescription"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="The program offers a full tuition waiver for up to 21 units. To be eligible, students must maintain good academic standing, complete 4 hours of service per day in their assigned department, and keep passing grades. Note that this benefit is not available during the summer term. To qualify, applicants must successfully pass both an examination and an interview."/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/hkCHeader"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@drawable/hkc"
+                    android:layout_marginTop="15dp"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:id="@+id/hkCTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3.  Valedictorian and Salutatorian Scholarship"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/hkCContent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="gone"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:id="@+id/hkCDescription"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="
+The program offers significant tuition benefits for incoming students: valedictorians receive a full 100% tuition waiver for their first semester, while salutatorians are awarded a 50% tuition discount for the same period. To be eligible, students must provide a certificate from the Principal, a Birth Certificate, and complete their Enrollment Registration."/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/hkDHeader"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@drawable/hkc"
+                    android:layout_marginTop="15dp"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:id="@+id/hkDTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="4. Dean's List Scholarship"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/hkDContent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="gone"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:id="@+id/hkDDescription"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="
+The program provides substantial tuition benefits for students who achieve recognition on the Dean's List: those ranked in the top 10 receive full 100% coverage of tuition fees for the semester following their award, while students ranked 11-25 receive a 50% discount on tuition fees for the same period. To qualify, students must ensure their grades are properly submitted to the Registrar."/>
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/hkEHeader"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@drawable/hkc"
+                    android:layout_marginTop="15dp"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:id="@+id/hkETitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="5. Hawak Kamay Scholarship"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/hkEContent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="gone"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:id="@+id/hkDEescription"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="
+The program offers up to 75% off both tuition and miscellaneous fees for a duration of 4 or 5 years. To qualify, applicants must pass an exam administered by the Marketing Department. There is no requirement to maintain a specific grade point average."/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!-- Header and content for hkA -->
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

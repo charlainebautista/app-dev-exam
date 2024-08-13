@@ -21,6 +21,9 @@ class Home : Fragment() {
 
         binding.edituserButton.setOnClickListener { findNavController().navigate(R.id.profile) }
         binding.seeMapsButton.setOnClickListener { findNavController().navigate(R.id.map) }
+        binding.helpButton.setOnClickListener{findNavController().navigate(R.id.modalityHelp)}
+        binding.scholarButton.setOnClickListener{findNavController().navigate(R.id.action_home2_to_scholarship2)}
+
 
         return binding.root
     }
