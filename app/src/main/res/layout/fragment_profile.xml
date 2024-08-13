@@ -211,7 +211,7 @@
         android:layout_height="45dp"
         android:background="@drawable/savebutton"
         android:gravity="center"
-        android:paddingHorizontal="130dp"
+        android:paddingHorizontal="100dp"
         android:text="Edit Profile"
         android:layout_marginTop="20dp"
         android:textAllCaps="false"
