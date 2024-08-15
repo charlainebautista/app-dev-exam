@@ -44,20 +44,20 @@
                 android:text="PHINMA-University of Pangasinan, 28WV+R2R, Arellano St, Downtown District, Dagupan, 2400 Pangasinan"/>
 
             <ImageView
-                android:layout_width="300dp"
-                android:layout_height="180dp"
+                android:layout_width="350dp"
+                android:layout_height="210dp"
                 android:layout_marginTop="30dp"
                 android:background="@drawable/dagupsbuilding" />
 
             <ImageView
-                android:layout_width="300dp"
-                android:layout_height="180dp"
+                android:layout_width="350dp"
+                android:layout_height="210dp"
                 android:layout_marginTop="20dp"
                 android:background="@drawable/dagupsmap" />
 
             <ImageView
-                android:layout_width="300dp"
-                android:layout_height="180dp"
+                android:layout_width="350dp"
+                android:layout_height="210dp"
                 android:layout_marginTop="20dp"
                 android:background="@drawable/dagupsentrance1" />
 
