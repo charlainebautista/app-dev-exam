@@ -66,7 +66,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
-                    android:background="@drawable/hka"
+                    android:background="@drawable/hkcontent"
                     android:padding="16dp"
                     android:layout_marginTop="30dp">
 
@@ -80,17 +80,17 @@
 
                 <LinearLayout
                     android:id="@+id/hkAContent"
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
-                    android:visibility="gone"
-                    android:padding="16dp">
+                    android:padding="16dp"
+                    android:visibility="gone">
 
                     <TextView
                         android:id="@+id/hkADescription"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="The scholarship offers exceptional financial support by covering 100% of tuition and miscellaneous fees for up to 5 years. Recipients also receive a monthly allowance of 4,000 PHP, provided they are Honors or Top 10 Grade 12 students who successfully pass the qualifying exam. To maintain the scholarship, students must fulfill a 2-hour daily service requirement in an assigned department, ensure no grades fall below 2.0, and maintain a minimum average of 1.75. This commitment extends to summer sessions if the curriculum necessitates it. To apply, students must submit a Scholarship Acceptance Letter from the Office of the President and complete their Enrollment Registration."/>
+                        android:text="The scholarship offers exceptional financial support by covering 100% of tuition and miscellaneous fees for up to 5 years. Recipients also receive a monthly allowance of 4,000 PHP, provided they are Honors or Top 10 Grade 12 students who successfully pass the qualifying exam. To maintain the scholarship, students must fulfill a 2-hour daily service requirement in an assigned department, ensure no grades fall below 2.0, and maintain a minimum average of 1.75. This commitment extends to summer sessions if the curriculum necessitates it. To apply, students must submit a Scholarship Acceptance Letter from the Office of the President and complete their Enrollment Registration." />
                 </LinearLayout>
 
                 <!-- Repeat for hkB and hkC -->
@@ -100,7 +100,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="15dp"
                     android:orientation="vertical"
-                    android:background="@drawable/hka"
+                    android:background="@drawable/hkcontent"
                     android:padding="16dp">
 
                     <TextView
@@ -132,7 +132,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
-                    android:background="@drawable/hkc"
+                    android:background="@drawable/hkcontent"
                     android:layout_marginTop="15dp"
                     android:padding="16dp">
 
@@ -165,7 +165,7 @@ The program offers significant tuition benefits for incoming students: valedicto
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
-                    android:background="@drawable/hkc"
+                    android:background="@drawable/hkcontent"
                     android:layout_marginTop="15dp"
                     android:padding="16dp">
 
@@ -197,7 +197,7 @@ The program provides substantial tuition benefits for students who achieve recog
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
-                    android:background="@drawable/hkc"
+                    android:background="@drawable/hkcontent"
                     android:layout_marginTop="15dp"
                     android:padding="16dp">
 
