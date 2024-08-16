@@ -32,7 +32,7 @@
                 android:text="Modality Help"
                 android:layout_marginTop="20dp"
                 android:textColor="#597445"
-                android:textSize="24sp"
+                android:textSize="20sp"
                 android:textStyle="bold" />
 
             <!-- Programs Section -->

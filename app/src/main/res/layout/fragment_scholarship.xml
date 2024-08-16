@@ -31,7 +31,7 @@
                 android:layout_height="wrap_content"
                 android:text="Scholarships"
                 android:textColor="#597445"
-                android:textSize="18sp"
+                android:textSize="20sp"
                 android:textStyle="bold" />
 
             <ImageView

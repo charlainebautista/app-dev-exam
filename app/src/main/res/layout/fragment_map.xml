@@ -22,6 +22,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Select a School Campus"
+            android:textColor="#597445"
             android:textSize="20sp" />
 
         <LinearLayout
@@ -32,7 +33,7 @@
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/c1_button"
-                android:layout_width="140dp"
+                android:layout_width="150dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
 
@@ -46,12 +47,21 @@
                     android:orientation="vertical"
                     android:padding="10dp">
 
-                    <ImageView
-                        android:id="@+id/edituser"
-                        android:layout_width="70dp"
-                        android:layout_height="70dp"
-                        android:layout_marginTop="10dp"
-                        android:src="@drawable/urds" />
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        app:cardCornerRadius="10dp"
+                        android:layout_marginTop="10dp">
+
+                        <ImageView
+                            android:id="@+id/edituser"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:src="@drawable/urdslogo" />
+                    </androidx.cardview.widget.CardView>
+
+
 
                     <Button
                         android:id="@+id/urdamap_button"
@@ -69,7 +79,7 @@
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/c4_button"
-                android:layout_width="140dp"
+                android:layout_width="150dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 app:cardBackgroundColor="#E1F0DA"
@@ -82,12 +92,22 @@
                     android:orientation="vertical"
                     android:padding="10dp">
 
-                    <ImageView
-                        android:id="@+id/seeMaps"
-                        android:layout_width="70dp"
-                        android:layout_height="70dp"
-                        android:layout_marginTop="10dp"
-                        android:src="@drawable/dagups" />
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        app:cardCornerRadius="10dp"
+                        android:padding="5dp"
+                        android:layout_marginTop="10dp">
+
+                        <ImageView
+                            android:id="@+id/seeMaps"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:src="@drawable/dagupslogo" />
+
+                    </androidx.cardview.widget.CardView>
+
 
                     <Button
                         android:id="@+id/dagupanmap_button"

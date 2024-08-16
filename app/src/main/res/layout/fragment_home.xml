@@ -27,10 +27,10 @@
             android:paddingBottom="100dp">
 
             <ImageView
-                android:layout_width="200dp"
-                android:layout_height="80dp"
+                android:layout_width="170dp"
+                android:layout_height="100dp"
                 android:layout_marginTop="30dp"
-                android:background="@drawable/logo" />
+                android:background="@drawable/phinma" />
             <ImageView
                 android:layout_width="350dp"
                 android:layout_height="180dp"
@@ -49,7 +49,7 @@
 
                     <androidx.cardview.widget.CardView
                         android:id="@+id/c1_button"
-                        android:layout_width="140dp"
+                        android:layout_width="150dp"
                         android:layout_height="wrap_content"
                         android:layout_margin="10dp"
                         app:cardBackgroundColor="#E1F0DA"
@@ -85,7 +85,7 @@
 
                     <androidx.cardview.widget.CardView
                         android:id="@+id/c4_button"
-                        android:layout_width="140dp"
+                        android:layout_width="150dp"
                         android:layout_height="wrap_content"
                         android:layout_margin="10dp"
                         app:cardBackgroundColor="#E1F0DA"
@@ -128,7 +128,7 @@
 
                     <androidx.cardview.widget.CardView
                         android:id="@+id/c2_button"
-                        android:layout_width="140dp"
+                        android:layout_width="150dp"
                         android:layout_height="wrap_content"
                         android:layout_margin="10dp"
                         app:cardBackgroundColor="#E1F0DA"
@@ -164,7 +164,7 @@
 
                     <androidx.cardview.widget.CardView
                         android:id="@+id/c3_button"
-                        android:layout_width="140dp"
+                        android:layout_width="150dp"
                         android:layout_height="wrap_content"
                         android:layout_margin="10dp"
                         app:cardBackgroundColor="#E1F0DA"
