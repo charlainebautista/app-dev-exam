@@ -20,6 +20,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
             android:gravity="center"
             android:orientation="vertical"
             android:paddingBottom="100dp">
@@ -30,8 +32,8 @@
                 android:layout_marginTop="30dp"
                 android:background="@drawable/logo" />
             <ImageView
-                android:layout_width="300dp"
-                android:layout_height="150dp"
+                android:layout_width="350dp"
+                android:layout_height="180dp"
                 android:background="@drawable/banner"
                 android:layout_marginTop="20dp"/>
 
@@ -70,7 +72,7 @@
                             <Button
                                 android:id="@+id/edituser_button"
                                 android:layout_width="120dp"
-                                android:layout_height="30dp"
+                                android:layout_height="40dp"
                                 android:layout_marginTop="20dp"
                                 android:layout_marginBottom="10dp"
                                 android:background="@drawable/savebutton"
@@ -106,7 +108,7 @@
                             <Button
                                 android:id="@+id/seeMaps_button"
                                 android:layout_width="120dp"
-                                android:layout_height="30dp"
+                                android:layout_height="40dp"
                                 android:layout_marginTop="20dp"
                                 android:layout_marginBottom="10dp"
                                 android:background="@drawable/savebutton"
@@ -149,7 +151,7 @@
                             <Button
                                 android:id="@+id/help_button"
                                 android:layout_width="120dp"
-                                android:layout_height="30dp"
+                                android:layout_height="40dp"
                                 android:layout_marginTop="15dp"
                                 android:layout_marginBottom="10dp"
                                 android:text="Modality Help"
@@ -177,15 +179,15 @@
 
                             <ImageView
                                 android:id="@+id/scholarship"
-                                android:layout_width="50dp"
-                                android:layout_height="50dp"
+                                android:layout_width="55dp"
+                                android:layout_height="55dp"
                                 android:layout_marginTop="10dp"
                                 android:background="@drawable/scholar"/>
 
                             <Button
                                 android:id="@+id/scholar_button"
                                 android:layout_width="120dp"
-                                android:layout_height="30dp"
+                                android:layout_height="40dp"
                                 android:layout_marginTop="10dp"
                                 android:layout_marginBottom="10dp"
                                 android:text="Scholarship"

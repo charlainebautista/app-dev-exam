@@ -18,6 +18,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
             android:paddingBottom="100dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
             android:gravity="center_horizontal"
             android:orientation="vertical"
             app:layout_constraintEnd_toEndOf="parent"
@@ -33,8 +35,8 @@
                 android:textStyle="bold" />
 
             <ImageView
-                android:layout_width="300dp"
-                android:layout_height="150dp"
+                android:layout_width="350dp"
+                android:layout_height="180dp"
                 android:layout_marginTop="20dp"
                 android:background="@drawable/scholarship" />
 
@@ -43,21 +45,21 @@
                 android:layout_height="wrap_content"
                 android:textAlignment="center"
                 android:text="Most importantly, our education is affordable. We do not charge any hidden or unnecessary fees."
-                android:layout_marginLeft="50dp"
-                android:layout_marginRight="50dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
                 android:layout_marginTop="20dp"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="50dp"
+                android:layout_marginLeft="40dp"
                 android:layout_marginTop="10dp"
-                android:layout_marginRight="50dp"
+                android:layout_marginRight="40dp"
                 android:text="We support deserving students throughout their tertiary learning years by offering scholarship programs. Our Hawak Kamay Scholarship Program provides 50% to 75% discount on tuition and miscellaneous fees for our more financially-challenged students."
                 android:textAlignment="center" />
 
             <LinearLayout
-                android:layout_width="310dp"
+                android:layout_width="350dp"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
 
@@ -65,8 +67,8 @@
                     android:id="@+id/hkAHeader"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:background="@drawable/hkcontent"
+                    android:orientation="horizontal"
+                    android:background="@drawable/modalityhelpbtn"
                     android:padding="16dp"
                     android:layout_marginTop="30dp">
 
@@ -74,8 +76,14 @@
                         android:id="@+id/hkATitle"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_weight="1"
                         android:text="1. PHINMA Scholarship"
                         android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:background="@drawable/dropdown"/>
                 </LinearLayout>
 
                 <LinearLayout
@@ -99,8 +107,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="15dp"
-                    android:orientation="vertical"
-                    android:background="@drawable/hkcontent"
+                    android:orientation="horizontal"
+                    android:background="@drawable/modalityhelpbtn"
                     android:padding="16dp">
 
                     <TextView
@@ -108,7 +116,13 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="2. Student Assistance Scholarship"
+                        android:layout_weight="1"
                         android:textStyle="bold" />
+                    <ImageView
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:background="@drawable/dropdown"/>
+
                 </LinearLayout>
 
                 <LinearLayout
@@ -131,8 +145,8 @@
                     android:id="@+id/hkCHeader"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:background="@drawable/hkcontent"
+                    android:orientation="horizontal"
+                    android:background="@drawable/modalityhelpbtn"
                     android:layout_marginTop="15dp"
                     android:padding="16dp">
 
@@ -141,7 +155,12 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="3.  Valedictorian and Salutatorian Scholarship"
+                        android:layout_weight="1"
                         android:textStyle="bold" />
+                    <ImageView
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:background="@drawable/dropdown"/>
                 </LinearLayout>
 
                 <LinearLayout
@@ -164,17 +183,23 @@ The program offers significant tuition benefits for incoming students: valedicto
                     android:id="@+id/hkDHeader"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:background="@drawable/hkcontent"
+                    android:orientation="horizontal"
+                    android:background="@drawable/modalityhelpbtn"
                     android:layout_marginTop="15dp"
-                    android:padding="16dp">
+                    android:padding="16dp"
+                    android:layout_weight="1">
 
                     <TextView
                         android:id="@+id/hkDTitle"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="4. Dean's List Scholarship"
-                        android:textStyle="bold" />
+                        android:textStyle="bold"
+                        android:layout_weight="1"/>
+                    <ImageView
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:background="@drawable/dropdown"/>
                 </LinearLayout>
 
                 <LinearLayout
@@ -196,8 +221,8 @@ The program provides substantial tuition benefits for students who achieve recog
                     android:id="@+id/hkEHeader"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:background="@drawable/hkcontent"
+                    android:orientation="horizontal"
+                    android:background="@drawable/modalityhelpbtn"
                     android:layout_marginTop="15dp"
                     android:padding="16dp">
 
@@ -206,7 +231,12 @@ The program provides substantial tuition benefits for students who achieve recog
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="5. Hawak Kamay Scholarship"
-                        android:textStyle="bold" />
+                        android:textStyle="bold"
+                        android:layout_weight="1"/>
+                    <ImageView
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:background="@drawable/dropdown"/>
                 </LinearLayout>
 
                 <LinearLayout
